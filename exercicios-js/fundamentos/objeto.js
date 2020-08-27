@@ -7,7 +7,7 @@ prod1.preco = 4998.90
 prod1['Valor Qualquer'] = 5627.90 //Outra forma de criar atriutos com chaves, POREM EVITE usando ESPAÇO
 console.log(prod1)
 
-//Outra forma de criar objetos literais, lembrando que objeto sem é um conjunto de pares, chave e valor
+//Outra forma de criar objetos literais, lembrando que objeto é um conjunto de pares, chave e valor
 
 const prod2 = {
     nome: 'Camisa Verde e Branco',

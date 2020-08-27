@@ -17,7 +17,7 @@ const obj2 = new Obj('Cadeira')
 
 console.log(obj2.teste) // Veja que retorna undefined por que ele não é visivel na função
 console.log(obj2.name) // Vai retornar a cadeira por que o atribuito passou a ficar visivel com o this
-console.log(Obj('Vejam isto')) //Como usei o return test ele devolve a entrada.
+console.log(Obj('Vejam isto')) //Como usei o return teste ele devolve a entrada.
 
 
 

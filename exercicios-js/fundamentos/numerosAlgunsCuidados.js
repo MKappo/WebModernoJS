@@ -34,6 +34,13 @@ Se houvesse uma precisão as linguagens seriam mais lentas para executarem tais 
 
 console.log(0.1 + 0.7)
 
+//Por outro lado se quiser o numero arredondado pode usar o toFixed, ele não é para arrendondar
+//mas para fixar duas casas após a virgula, porém ele acaba arrendondando.
+
+const a = 0.1 + 0.7 
+console.log(a.toFixed(2))
+
+
 
 //console.log(10.toString()) Esta operação daria erro. Não é possivel fazer direto no numero
 

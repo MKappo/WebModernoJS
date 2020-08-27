@@ -84,7 +84,7 @@ console.log(produto.preco)
 //não é possivel chamar uma propriedade, função, etc de um atributo undefined (no caso preco)
 //console.log(produto.preco.funcX)
 
-//Agora sabendo que produto é objeto e de forma dinamina, criarmos o atributo preço atribuindo valor
+//Agora sabendo que produto é objeto e de forma dinamica, criarmos o atributo preço atribuindo valor
 //O exemplo acima não retorna erro como vemos abaixo
 produto.preco = 3.50
 console.log(produto.preco) //o Autocomplete até funciona aqui...
@@ -96,7 +96,7 @@ console.log(produto.preco.funcX) //undefinded por conta do funcX
 // Aqui já retorna undefined por que foi criado mas não inicializado
 let produto2
 console.log(produto2)
-// MAS SE FOSSE CONST, dava erro! por que toda const tem que ser inicializada ao ser criada!
+// MAS SE FOSSE CONST, dava erro! por que TODA CONST TEM QUE SER INICIALIZADA AO SER CRIADA!
 //const produto3
 //console.log(produto3)
 

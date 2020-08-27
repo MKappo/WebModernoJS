@@ -2,7 +2,7 @@ var a = 3
 let b = 4
 
 var a = 30
-// let = 40   Veja comentário maior abaixo
+// let b = 40   // Veja comentário maior abaixo
 b = 40 // neste caso funcionará pois estou alterando valor de uma variável já declarada.
 
 console.log(a,b)
