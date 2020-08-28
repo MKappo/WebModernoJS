@@ -3,7 +3,7 @@
 //Primeiramente vale lembrar que o break como já vimos, pode ser usado em switch, for e while
 //Já o Continue apenas em for e while
 
-// O uso delas é desencorajado, mas naturalmente há casos válidos, mas eles disviam o fluxo
+// O uso delas é desencorajado, mas naturalmente há casos válidos, mas eles desviam o fluxo
 // e isso pode trazer confusão ao código... 
 
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
